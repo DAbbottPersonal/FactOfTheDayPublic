@@ -1,0 +1,25 @@
+# Update this to email a group of people!
+# Change the name of the file to contacts.yaml.
+#
+# List of Contacts to email
+#
+# General Format is
+# FirstNameLastName:
+#   FirstName: Joe
+#   LastName: Shmoe
+#   Email: joeshmoe@foobar.com
+#   Birthday:
+#     Month: January
+#     Day: 01
+#     Year: 1900
+#
+
+OneDayInHistory:
+  FirstName: History
+  LastName: Fact
+  Email: 1thisdayinhistory@gmail.com
+  Birthday:
+    Month: January
+    Day: 01
+    Year: 1900
+

@@ -1,0 +1,9 @@
+# Update this file to store the email and password
+# which to send the fact email from!
+#
+# Change the name of the file to "email.yaml"
+#
+
+Email: "foo@bar.com"
+Password: "password"
+
