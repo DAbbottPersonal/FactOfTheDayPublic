@@ -57,7 +57,7 @@ def extractLines(rawtext):
 ############################################################
 
 # Command line arguments here.
-parser = argparse.ArgumentParser(description='Run the full chain of limit plot making for boosted.')
+parser = argparse.ArgumentParser(description='Send a fact about today to an email!')
 parser.add_argument('-e','--email',type=str, help='Email to a specific person, instead of a group yaml.')
 parser.add_argument('-w','--html',action='store_true',help='Output an html with the fact of the day.')
 parser.add_argument('-p','--printOnly',action='store_true',help='Will only print the fact.')
