@@ -1,11 +1,11 @@
-import requests
-from time import strftime
-import re
-from random import random
-import webbrowser
-from smtplib import SMTP
-from yaml import safe_load
 import argparse
+import re
+import requests
+import webbrowser
+from random import random
+from smtplib import SMTP
+from time import strftime
+from yaml import safe_load
 
 def month_and_day(asString = True):
     if(asString):
